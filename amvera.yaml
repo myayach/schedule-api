@@ -1,5 +1,6 @@
 meta:
   environment: python
+  toolchain: pip
   version: "3.11"
 
 build:
