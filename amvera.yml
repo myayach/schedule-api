@@ -1,0 +1,10 @@
+meta:
+  environment: python
+  version: "3.10"
+
+run:
+  command: uvicorn main:app --host 0.0.0.0 --port 8000
+
+network:
+  port: 8000
+  protocol: http
